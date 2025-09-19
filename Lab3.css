@@ -4,7 +4,7 @@ body {
     flex-direction: column;
 }
 
-.header {
+.header-footer {
     background-color: grey;
     color: white;
     text-align: center;
@@ -47,6 +47,18 @@ body {
     border: 2px solid black;
 }
 
+#name {
+    width: 150px;
+    transition: all 0.3s ease;
+}
+
+#name:focus{
+    width: 175px;
+    height: 25px;
+    outline: none;
+    border: 2px solid blue;
+}
+
 .rules{
     background-color: lightskyblue;
     padding: 20px;
@@ -60,13 +72,4 @@ body {
     background-color: navy;
     color: white;
     cursor: pointer;
-}
-.footer {
-    background-color: gray;
-    color: white;
-    text-align: center;
-    padding: 7.5px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    clear: both;
-    margin-top: auto;
 }
