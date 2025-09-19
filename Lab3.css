@@ -1,5 +1,7 @@
 body {
     background-color: lightyellow;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -14,18 +16,45 @@ body {
     background-color: blue;
     color: white;
     padding: 5px;
+    padding-left: 75px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
 }
 
 .game-play {
     background-color: turquoise;
     padding: 30px;
+    width: 60%;
+    float: left;
+    border-radius: 20px;
+    border: 2px solid black;
 }
 
+.rules{
+    background-color: lightskyblue;
+    padding: 20px;
+    width: 35%;
+    float: right;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.rules:hover {
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+}
 .footer {
     background-color: gray;
     color: white;
     text-align: center;
     padding: 7.5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    clear: both;
+    margin-top: auto;
 }

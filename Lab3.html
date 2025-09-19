@@ -12,19 +12,37 @@
         <div class = "dropdown-menu">
             <p>Instructions</p>
         </div>
-        <br>
-        <div class = "game-play">
-            <h2>Choose your move.</h2>
-            <br><br>
-            <label for = "name">Name: </label>
-            <input type = "text" id = "name" required>
-            <br><br>
-            <label for = "choice"> Your Choice: </label>
-            <input type = "text" id = "choice" placeholder = "Rock, Paper, or Scissors" required>
-            <br><br>
-            <button class = "submit-button">Play</button>
+        <div class = "content">
+            <div class = "game-play">
+                <h2>Choose your move.</h2>
+                <br><br>
+                <form>
+                    <label for = "name">Name: </label>
+                    <input type = "text" id = "name" required>
+                    <br><br>
+                    <label for = "choice"> Your Choice: </label>
+                    <select id = "choice" required>
+                        <option value = "" disabled selected hidden>Select Choice</option>
+                        <option value = "rock">Rock</option>
+                        <option value = "paper">Paper</option>
+                        <option value = "scissors">Scissors</option>
+                    </select>
+                    <br><br>
+                    <button class = "submit-button">Play</button>
+                </form>
+            </div>
+            <!--Add a picture of the game HERE-->
+            <div class = "rules">
+                <h2 style = "text-align: center;"><u>Rules of the game</u></h2>
+            <h3><b>Each turn you get, you must choose one of the thre choices: Rock, Paper, or Scissors.</h3>
+                <h3>The Combos are as follows:</h3>
+                <ul>
+                    <li>Rock beats Scissors</li>
+                    <li>Scissors beats Paper</li>
+                    <li>Paper beats Rock</li>
+                </ul>
+            </div>
         </div>
-        <br>
         <div class = "footer">
             <p>This is a footer, maybe I should make it interesting, but I am pretty boring.</p>
         </div>
