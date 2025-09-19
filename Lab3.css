@@ -1,3 +1,31 @@
 body {
     background-color: lightyellow;
 }
+
+.header {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dropdown-menu {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.game-play {
+    background-color: turquoise;
+    padding: 30px;
+}
+
+.footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 7.5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
