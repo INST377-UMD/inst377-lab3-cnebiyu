@@ -14,10 +14,22 @@ body {
 
 .dropdown-menu {
     background-color: blue;
+    padding-left: 25px;
+    display: flex;
+    gap: 40px;
+}
+
+.dropdown-menu a {
     color: white;
-    padding: 5px;
-    padding-left: 75px;
+    text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
+    transition: color 0.3s, text-decoration 0.3s;
+    padding: 10px;
+}
+
+.dropdown-menu a:hover {
+    background-color: white;
+    color: blue;
 }
 
 .content {
